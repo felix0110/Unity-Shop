@@ -22,7 +22,7 @@ const AccountInfo = ({
   isSuccess,
   isError,
   clearState,
-  errorMessage = "An error occurred, please try again",
+  errorMessage = "An error occurred, please try again ",
   children,
   'data-testid': dataTestid
 }: AccountInfoProps) => {
