@@ -346,7 +346,7 @@ export default async function seedDemoData({ container }: ExecArgs) {
     input: {
       products: [
         {
-          title: "Medusa T-Shirt",
+          title: "T-Shirt",
           category_ids: [
             categoryResult.find((cat) => cat.name === "Shirts")!.id,
           ],
@@ -533,7 +533,7 @@ export default async function seedDemoData({ container }: ExecArgs) {
           ],
         },
         {
-          title: "Medusa Sweatshirt",
+          title: "Sweatshirt",
           category_ids: [
             categoryResult.find((cat) => cat.name === "Sweatshirts")!.id,
           ],
@@ -634,7 +634,7 @@ export default async function seedDemoData({ container }: ExecArgs) {
           ],
         },
         {
-          title: "Medusa Sweatpants",
+          title: "Sweatpants",
           category_ids: [
             categoryResult.find((cat) => cat.name === "Pants")!.id,
           ],
@@ -735,7 +735,7 @@ export default async function seedDemoData({ container }: ExecArgs) {
           ],
         },
         {
-          title: "Medusa Shorts",
+          title: "Shorts",
           category_ids: [
             categoryResult.find((cat) => cat.name === "Merch")!.id,
           ],
