@@ -156,6 +156,18 @@ const medusaConfig = {
           }
         }
       }
+    }, {
+    resolve: `medusa-notification-telegram`,
+    options: {
+      token: process.env.TELEGRAM_TOKEN || 'xxxxxxxxxxxx',
+      group_chat_id: process.env.TELEGRAM_GROUP_CHAT_ID || '-100xxxxxxxx',      
+      admin_orders_url: 'http://localhost:7000/a/orders',
+      events_notifications: [
+            "order.placed" , "order.return_requested" ,"order.fulfillment_created" ,"order.shipment_created" ,
+            "order.payment_captured", "order.canceled", "order.updated" , "order.swap_created",
+            "order.refund_failed", "order.refund_created" , "order.return_action_required", "order.items_  returned",
+            "order.fulfillment_canceled"
+          ]
     }] : [])
   ]
 };
