@@ -112,7 +112,7 @@ export default async function Footer() {
                 
                 <li>
                   <a
-                    href="https://www.unityscubadivinghk.hk"
+                    href="https://www.unityscubadiving.hk"
                     target="_blank"
                     rel="noreferrer"
                     className="hover:text-ui-fg-base"
@@ -121,7 +121,7 @@ export default async function Footer() {
                   </a>
                 </li>
                 <li>
-                  <a  href="https://www.unityscubadivinghk.hk"
+                  <a  href="https://www.unityscubadiving.hk"
                     target="_blank"
                     rel="noreferrer"
                     className="hover:text-ui-fg-base"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
